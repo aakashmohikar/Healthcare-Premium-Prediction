@@ -1,2 +1,1 @@
-# ml-project-premium-prediction
-Codebasics ML Course health insurance prediction project
+(https://healthcare-premium-prediction-smjhkmtzy538gg5hqkf8uq.streamlit.app/)

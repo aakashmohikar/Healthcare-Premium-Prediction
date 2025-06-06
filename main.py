@@ -1,22 +1,14 @@
 # codebasics ML course: codebasics.io, all rights reserverd
 
 import streamlit as st
-import time
 from prediction_helper import predict
 
 # Define the page layout
 st.title('🏥 Insurance Premium Prediction')
 
-# Display the heads-up as a temporary message
-heads_up = st.warning(
-    "**Heads up!** This app is for a project and should not be taken seriously. For real insurance-related queries or decisions, please consult a professional.")
+
 st.markdown("[Connect with me on LinkedIn](https://www.linkedin.com/in/aakashmohikar/)")
 
-# Keep the message visible for 5 seconds
-time.sleep(5)
-
-# Clear the heads-up message
-heads_up.empty()
 
 categorical_options = {
     'Gender': ['Male', 'Female'],
